@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box; /* Added for better box model handling */
+}
+
+.w700 {
+    font-weight: 700;
+    color: #00103d;
+}
+.w800 {
+    font-weight: 700;
+    color:  #252B42    ;
+}
+.w300 {
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    margin-left: -30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px; /* Changed margin to padding for better layout */
+}
+
+.menu {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+}
+
+.button {
+    margin-right: 20px;
+}
+.first{
+    margin-left: -200px;
+}
+.button a {
+    color: #737373;
+    text-decoration: none; 
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login a {
+    color: #23A6F0;
+    text-decoration: none;
+    margin-left: -100px;
+    margin-bottom: -50px;
+}
+#colorsignin{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: white;
+    padding-left: 30px;
+    background-color: #23A6F0;
+    color: white;
+    width: 214px;
+    height: 52px;
+    border-radius: 5px;
+    border: none;
+    margin-right: -70px;
+}
+
+.title{
+    font-family: Montserrat;
+    width: 509px;
+    height: 160px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-top: 200px;
+}
+header{
+    margin-left: 200px;
+
+}
+
+.description{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+    width: 376px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.bluebutton{
+    width: 185px;  /* Set width to 185px */
+    height: 52px;  /* Set height to 52px */
+    display: flex;
+    align-items: center;   /* Center content vertically */
+    justify-content: center;
+    padding: 15px 36px 15px 36px;
+    gap: 10px;
+    border-radius: 37px 37px 37px 37px;
+    margin-top: 50px;
+    opacity: 0px;
+    border: 1px solid #23A6F0;
+    background-color:  #23A6F0;
+    color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 0px;
+
+}
+.whitebutton{
+    width: 185px;  /* Set width to 185px */
+    height: 52px;  /* Set height to 52px */
+    display: flex;
+    align-items: center; 
+    padding: 15px 36px 15px 36px;
+    gap: 10px;
+    border-radius: 37px 37px 37px 37px;
+    opacity: 0px;
+    border: 1px solid #23A6F0;
+    color: #23A6F0;
+}
+.controlbutton{
+    width:  349px;
+    height: 52px;
+    gap: 10px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 20px;
+}
